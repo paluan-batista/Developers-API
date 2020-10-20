@@ -1,4 +1,4 @@
-package com.developers.developersApi;
+package br.com.developers.developersapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,6 +8,7 @@ public class DevelopersApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DevelopersApiApplication.class, args);
+
 	}
 
 }
