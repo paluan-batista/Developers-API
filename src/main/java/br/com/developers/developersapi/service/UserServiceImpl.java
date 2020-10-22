@@ -1,19 +1,16 @@
 package br.com.developers.developersapi.service;
 
+import java.util.Optional;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import br.com.developers.developersapi.domain.model.User;
 import br.com.developers.developersapi.domain.repository.UserRepository;
 import br.com.developers.developersapi.dto.UserDataTransferObject;
 import br.com.developers.developersapi.service.convert.UserConvert;
-
-import java.util.Optional;
-
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-
 import lombok.AllArgsConstructor;
-//import lombok.AccessLevel;
 
 @AllArgsConstructor
 @Service
