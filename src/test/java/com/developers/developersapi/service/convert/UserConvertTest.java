@@ -27,5 +27,4 @@ public class UserConvertTest implements UsersConstants {
 		assertEquals(FULL_NAME, fullName);
 		assertEquals(IDENTIFIER, identifier);
 	}
-
 }
